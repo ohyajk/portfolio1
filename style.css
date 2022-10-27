@@ -78,7 +78,7 @@ body {
   margin-left: 16px;
   margin-right: 16px;
   text-align: center;
-  border-width: 1px
+  border-width: 1px;
 }
 
 .btn:active {
@@ -89,5 +89,5 @@ body {
   margin-left: 16px;
   margin-right: 16px;
   text-align: center;
-  border-width: 2px
+  border-width: 2px;
 }
