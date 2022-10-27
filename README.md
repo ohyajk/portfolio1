@@ -1,6 +1,6 @@
 # Portfolio1
 
-Portfolio1 design by Jitender Kumar.
+Mobile Portfolio design by Jitender Kumar.
 
 ## Description
 
