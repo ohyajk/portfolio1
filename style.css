@@ -5,6 +5,13 @@ body {
   background-repeat: no-repeat;
 }
 
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
 .navbar {
   display: flex;
   justify-content: end;
@@ -96,4 +103,189 @@ body {
   margin-top: 32px;
   width: 100%;
   margin-bottom: 32px;
+}
+
+.project-h1 {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-top: 0;
+}
+
+.folio-img {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.folio-txt {
+  background-color: #1a2236;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 4px;
+}
+
+.folio-heading {
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.folio-tag {
+  display: flex;
+  gap: 16px;
+  margin: 0 16px;
+  color: #1a2236;
+}
+
+.tag-item {
+  background-color: #98dede;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  padding: 6px 10px;
+}
+
+.folio-btn {
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  border: 1px solid white;
+  width: 180px;
+  padding: 10px 0;
+}
+
+.folio-btn:hover {
+  background-color: white;
+  border: 1px solid #1a2236;
+  color: #1a2236;
+}
+
+.folio-btn:active {
+  background-color: white;
+  border: 2px solid #1a2236;
+  color: #1a2236;
+}
+
+.folio-btn-img {
+  height: 16px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+
+.about-h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about-p {
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-btn {
+  margin-top: 16px;
+  margin-right: 16px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: #1a2236;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.about-btn:hover {
+  background-color: white;
+  border: 1px solid #1a2236;
+  color: #1a2236;
+}
+
+.about-btn:active {
+  background-color: white;
+  border: 2px solid #1a2236;
+  color: #1a2236;
+}
+
+.about-btn-ico {
+  height: 24px;
+  width: 24px;
+}
+
+.box {
+  margin-top: 16px;
+  color: white;
+  background-color: #1c528a;
+  margin-right: 16px;
+  font-family: 'Poppins', sans-serif;
+  height: 289px;
+  position: relative;
+}
+
+.box-h2 {
+  padding-top: 8px;
+  margin-left: 50px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.box-ul {
+  margin-left: 65px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.box-ul li {
+  list-style-type: disc;
+}
+
+.box-img {
+  position: absolute;
+  height: 102px;
+  width: 102px;
+  bottom: 0;
+  right: 0;
+}
+
+.box2 {
+  margin-top: 16px;
+  color: white;
+  background-color: #e2505c;
+  margin-right: 16px;
+  font-family: 'Poppins', sans-serif;
+  height: 289px;
+  position: relative;
+}
+
+.box3 {
+  margin-top: 16px;
+  color: white;
+  background-color: #febf52;
+  margin-right: 16px;
+  font-family: 'Poppins', sans-serif;
+  height: 289px;
+  position: relative;
+  margin-bottom: 16px;
 }
