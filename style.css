@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/geo.png);
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.tri-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 70px;
+  width: 70px;
+}
+
+.sq-svg {
+  position: absolute;
+  left: 32px;
+  top: 0;
+  height: 70px;
+  width: 70px;
+}
+
+.menu {
+  margin-top: 30px;
+  margin-right: 16px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Playfair Display', serif;
+  color: #1a2236;
+  font-size: 50px;
+  margin-left: 16px;
+  margin-top: 104px;
+  line-height: 50px;
+  margin-bottom: 16px;
+}
+
+.para {
+  font-family: 'Poppins', sans-serif;
+  padding: 0 16px;
+}
+
+.btn {
+  color: white;
+  background-color: #1a2236;
+  height: 50px;
+  width: 288px;
+  text-align: center;
+}
