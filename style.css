@@ -91,3 +91,9 @@ body {
   text-align: center;
   border-width: 2px;
 }
+
+.geo2-img {
+  margin-top: 32px;
+  width: 100%;
+  margin-bottom: 32px;
+}
