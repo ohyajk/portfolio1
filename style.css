@@ -69,3 +69,25 @@ body {
   margin-right: 16px;
   text-align: center;
 }
+
+.btn:hover {
+  background-color: white;
+  color: #1a2236;
+  height: 50px;
+  width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-align: center;
+  border-width: 1px
+}
+
+.btn:active {
+  background-color: white;
+  color: #1a2236;
+  height: 50px;
+  width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-align: center;
+  border-width: 2px
+}
