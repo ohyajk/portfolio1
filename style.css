@@ -12,6 +12,11 @@ li {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .navbar {
   display: flex;
   justify-content: end;
@@ -67,13 +72,17 @@ li {
   justify-content: center;
 }
 
+.btn-a {
+  width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 .btn {
   color: white;
   background-color: #1a2236;
   height: 50px;
   width: 100%;
-  margin-left: 16px;
-  margin-right: 16px;
   text-align: center;
 }
 
@@ -81,9 +90,6 @@ li {
   background-color: white;
   color: #1a2236;
   height: 50px;
-  width: 100%;
-  margin-left: 16px;
-  margin-right: 16px;
   text-align: center;
   border-width: 1px;
 }
@@ -92,9 +98,6 @@ li {
   background-color: white;
   color: #1a2236;
   height: 50px;
-  width: 100%;
-  margin-left: 16px;
-  margin-right: 16px;
   text-align: center;
   border-width: 2px;
 }
@@ -183,6 +186,7 @@ li {
   display: flex;
   flex-direction: column;
   padding-left: 16px;
+  padding-right: 16px;
 }
 
 .about-h1 {
@@ -201,9 +205,8 @@ li {
 }
 
 .about-btn {
-  margin-top: 16px;
-  margin-right: 16px;
   height: 50px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,6 +231,13 @@ li {
   color: #1a2236;
 }
 
+.about-btn h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .about-btn-ico {
   height: 24px;
   width: 24px;
@@ -237,7 +247,6 @@ li {
   margin-top: 16px;
   color: white;
   background-color: #1c528a;
-  margin-right: 16px;
   font-family: 'Poppins', sans-serif;
   height: 289px;
   position: relative;
@@ -273,7 +282,6 @@ li {
   margin-top: 16px;
   color: white;
   background-color: #e2505c;
-  margin-right: 16px;
   font-family: 'Poppins', sans-serif;
   height: 289px;
   position: relative;
@@ -283,7 +291,6 @@ li {
   margin-top: 16px;
   color: white;
   background-color: #febf52;
-  margin-right: 16px;
   font-family: 'Poppins', sans-serif;
   height: 289px;
   position: relative;
