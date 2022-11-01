@@ -30,6 +30,9 @@ Follow the steps below to get started -
 
 Contributions and feature requests are welcome!
 
+👤 ilyass atlassi
+
+- **GitHub**: [@ilyassatlassi](https://github.com/ilyassatlassi)
 
 ## Acknowledgements
 
