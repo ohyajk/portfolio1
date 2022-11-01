@@ -305,6 +305,8 @@ a {
   background-color: #f9f9fa;
   background-image: url(./assets/geo.png);
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-bg h1 {
@@ -323,6 +325,11 @@ a {
   font-size: 10px;
   line-height: 15px;
   padding: 6px 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 .form-border {
