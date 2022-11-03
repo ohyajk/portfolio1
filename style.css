@@ -392,6 +392,18 @@ form {
   width: 100%;
 }
 
+.form-button:hover {
+  background-color: white;
+  color: #1a2236;
+  border: 1px solid black;
+}
+
+.form-button:active {
+  background-color: white;
+  color: #1a2236;
+  border: 2px solid black;
+}
+
 .img2 {
   display: none;
 }
@@ -581,6 +593,12 @@ form {
 
   .pc-geo-1 {
     display: block;
+    position: relative;
+    resize: both;
+  }
+
+  .pc-geo-1 img {
+    width: 100%;
   }
 
   .pc2 {
@@ -612,9 +630,12 @@ form {
 
   .img-folio4 {
     height: 220px;
-    margin-left: 50%;
-    margin-top: -16%;
-    padding-bottom: 20px;
+    resize: both;
+  }
+
+  .img-folio5 {
+    width: 100%;
+    resize: both;
   }
 
   .folio-img-last {
