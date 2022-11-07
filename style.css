@@ -84,6 +84,7 @@ a {
   text-align: center;
   margin-left: 16px;
   margin-right: 16px;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
 .btn:hover {
@@ -175,6 +176,7 @@ a {
   border: 1px solid white;
   width: 180px;
   padding: 10px 0;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
 .folio-btn:hover {
@@ -390,6 +392,7 @@ form {
   line-height: 24px;
   padding: 12px 0;
   width: 100%;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
 .form-button:hover {
