@@ -9,7 +9,7 @@ This is a website that presents all the qualifications and working experience.
 
 ## 🔗 Live Preview
 
-- HTML and CSS 
+- https://ohyajk.github.io/portfolio1/
 
 
 ## 🛠️ Built With
