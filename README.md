@@ -1,18 +1,23 @@
-# Portfolio1
+# 👑 Portfolio1
 
 Mobile Portfolio design by Jitender Kumar.
 
-## Description
+## 🗨️ Description
 
 This is a website that presents all the qualifications and working experience.
 
 
-## Built With
+## 🔗 Live Preview
 
 - HTML and CSS 
 
 
-## Getting Started
+## 🛠️ Built With
+
+- HTML and CSS 
+
+
+## 🔑 Getting Started
 
 Follow the steps below to get started -
 
@@ -20,7 +25,7 @@ Follow the steps below to get started -
 2. Open files in your favourite IDE or Code Editor.
 
 
-## Author
+## 👦 Author
 
 👤 Jitender Kumar (JK)
 
@@ -34,12 +39,12 @@ Contributions and feature requests are welcome!
 
 - **GitHub**: [@ilyassatlassi](https://github.com/ilyassatlassi)
 
-## Acknowledgements
+## 💌 Acknowledgements
 
 - StackOverflow
 - Youtube
 - Google
 
-## Show your support
+## 🤝 Show your support
 
 Give a ⭐️ if you like this project!
