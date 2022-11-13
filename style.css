@@ -37,6 +37,10 @@ a {
   gap: 48px;
 }
 
+.mob-abs-2 {
+  display: none;
+}
+
 .card-1-text li {
   background-color: #98dede;
   color: #1a2236;
@@ -699,7 +703,32 @@ a {
   }
 
   .header ul {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 101vh;
+    width: 100%;
+    margin-top: -40px;
+    position: absolute;
+    z-index: 10;
+    background-color: whitesmoke;
+    background-image: url('./assets/mob-abs-1.svg');
+    background-repeat: no-repeat;
+  }
+
+  .mob-abs-2 {
+    display: block;
+    background-image: url('./assets/mob-abs-2.svg');
+    position: absolute;
+    height: 100vh;
+    width: 100% !important;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin: 0;
+    padding: 0;
   }
 
   .header nav {
@@ -874,6 +903,10 @@ a {
 
   .about-text button {
     padding: 8px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
   }
 
   .about-text a {
