@@ -1,386 +1,160 @@
+/* PC VIEW PORTFOLIO STARTS */
+
 body {
   margin: 0;
   padding: 0;
-  background-image: url(./assets/geo.png);
-  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 ul,
-li {
-  text-decoration: none;
-  list-style: none;
-  padding: 0;
-}
-
+li,
 a {
   text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   color: inherit;
 }
 
-.navbar {
+/* Header Section Starts */
+
+.header {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
+  padding: 38px 0;
 }
 
-.navbar ul {
-  display: none;
-}
-
-.tri-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 70px;
-  width: 70px;
-}
-
-.sq-svg {
-  position: absolute;
-  left: 32px;
-  top: 0;
-  height: 70px;
-  width: 70px;
-}
-
-.menu {
-  margin-top: 30px;
-  margin-right: 16px;
-}
-
-.heading {
-  font-family: 'Playfair Display', serif;
-  color: #1a2236;
-  font-size: 50px;
-  margin-left: 16px;
-  margin-top: 104px;
-  line-height: 50px;
-  margin-bottom: 16px;
-  text-align: left;
-}
-
-.para {
-  font-family: 'Poppins', sans-serif;
-  padding: 0 16px;
-}
-
-.btn-section {
+.header ul {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 48px;
 }
 
-.btn-a {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-.btn {
-  color: white;
-  background-color: #1a2236;
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  margin-left: 16px;
-  margin-right: 16px;
-  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
-}
-
-.btn:hover {
-  background-color: white;
-  color: #1a2236;
-  height: 50px;
-  text-align: center;
-  border-width: 1px;
-}
-
-.btn:active {
-  background-color: white;
-  color: #1a2236;
-  height: 50px;
-  text-align: center;
-  border-width: 2px;
-}
-
-.geo2-img {
-  margin-top: 32px;
-  width: 100%;
-  margin-bottom: 32px;
-}
-
-.img-dots {
-  display: none;
-}
-
-.geo3-img {
-  display: none;
-}
-
-.pc-geo-1 {
-  display: none;
-}
-
-.project-h1 {
-  font-size: 50px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  margin-bottom: 32px;
-  margin-left: 16px;
-  margin-top: 0;
-}
-
-.folio-geo-last {
-  display: none;
-}
-
-.folio-img {
-  width: 100%;
-}
-
-.folio-txt {
-  background-color: #1a2236;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  padding-bottom: 4px;
-}
-
-.folio-heading {
-  font-size: 20px;
-  font-weight: 300;
-  margin-left: 16px;
-  margin-bottom: 16px;
-}
-
-.folio-tag {
-  display: flex;
-  gap: 16px;
-  margin: 0 16px;
-  color: #1a2236;
-}
-
-.tag-item {
+.card-1-text li {
   background-color: #98dede;
-  font-family: 'Poppins', sans-serif;
-  font-size: 10px;
-  padding: 6px 10px;
-}
-
-.folio-btn {
-  margin-left: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  font-size: 16px;
-  border: 1px solid white;
-  width: 180px;
-  padding: 10px 0;
-  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
-}
-
-.folio-btn:hover {
-  background-color: white;
-  border: 1px solid #1a2236;
   color: #1a2236;
+  padding: 2px 4px;
 }
 
-.folio-btn:active {
-  background-color: white;
-  border: 2px solid #1a2236;
-  color: #1a2236;
-}
-
-.folio-btn-img {
-  height: 16px;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-.about-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.about-p {
-  margin-top: 0;
+.about-cards li {
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.about-btn {
-  height: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  font-size: 16px;
-  font-weight: 500;
-  color: white;
-  background-color: #1a2236;
-  line-height: 24px;
-  margin-bottom: 16px;
-}
-
-.about-btn:hover {
-  background-color: white;
-  border: 1px solid #1a2236;
-  color: #1a2236;
-}
-
-.about-btn:active {
-  background-color: white;
-  border: 2px solid #1a2236;
-  color: #1a2236;
-}
-
-.about-btn h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.about-btn-ico {
-  height: 24px;
-  width: 24px;
-}
-
-.box {
-  margin-top: 16px;
-  color: white;
-  background-color: #1c528a;
-  font-family: 'Poppins', sans-serif;
-  height: 289px;
-  position: relative;
-}
-
-.box-h2 {
-  padding-top: 8px;
-  margin-left: 50px;
-  font-weight: 800;
-  font-size: 20px;
-}
-
-.box-ul {
-  margin-left: 65px;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  list-style: disc;
 }
 
-.box-ul li {
-  list-style-type: disc;
+.header li:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
-.box-img {
-  position: absolute;
-  height: 102px;
-  width: 102px;
-  bottom: 0;
-  right: 0;
+.menu {
+  display: none;
 }
 
-.box2 {
-  margin-top: 16px;
-  color: white;
-  background-color: #e2505c;
-  font-family: 'Poppins', sans-serif;
-  height: 289px;
-  position: relative;
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
-.box3 {
-  margin-top: 16px;
-  color: white;
-  background-color: #febf52;
-  font-family: 'Poppins', sans-serif;
-  height: 289px;
-  position: relative;
-  margin-bottom: 16px;
+/* Header Section Ends */
+
+/* Hero Section Starts */
+
+.hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.section-bg {
-  padding-top: 68px;
-  padding-bottom: 68px;
-  padding-left: 16px;
-  padding-right: 16px;
-  background-color: #f9f9fa;
-  background-image: url(./assets/geo.png);
-  background-repeat: no-repeat;
+.hero-text {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  background-image: url(./assets/dots-img.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100%;
+  width: 100%;
 }
 
-.section-bg h1 {
+.hero-text-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 38px;
+  width: 65%;
+}
+
+.hero-text-div h1 {
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 110px;
   line-height: 100%;
-  margin-bottom: 20px;
+  color: #1a2236;
+  margin: 0;
+  padding: 0;
 }
 
-.section-bg label {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 15px;
-  padding: 6px 16px;
+.hero-text-div p {
+  margin: 0;
 }
 
-form {
+.hero-text-div a {
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.hero-text-div button {
+  padding: 18px 42px;
+  background-color: #1a2236;
+  color: white;
+  cursor: pointer;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
+}
+
+.card-1-text button {
+  background-color: whitesmoke;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  gap: 8px;
+  white-space: nowrap;
+  margin: 20px;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
-.form-border {
+.about-text button {
+  background-color: #1a2236;
+  color: white;
+  padding: 16px 80px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
   display: flex;
-  justify-content: start;
-  flex-direction: column;
-  border: 1px solid #dfdfe0;
-  border-radius: 8px;
-  margin-bottom: 8px;
-  background-color: white;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
-.form-border:hover {
-  border: 1px solid black;
-}
-
-.form-border:active {
-  border: 2px solid black;
-}
-
-.form-border input {
-  padding: 4px 16px;
-  border: none;
-  outline: none;
-  background-color: white;
-}
-
-.section-bg textarea {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 12px 16px;
-  margin-right: 0;
-  border-radius: 8px;
-  background-color: white;
-  outline-color: black;
-}
-
-.form-button {
+.contact-wrapper button {
   margin-top: 8px;
   margin-bottom: 16px;
   background-color: #1a2236;
@@ -391,355 +165,752 @@ form {
   font-size: 16px;
   line-height: 24px;
   padding: 12px 0;
-  width: 100%;
+  width: 50%;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
+  cursor: pointer;
+}
+
+.card-1-text button:hover {
+  background-color: #1a2236;
+  color: white;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  gap: 8px;
+  white-space: nowrap;
+  margin: 20px;
+}
+
+.hero-text-div button:hover {
+  padding: 18px 42px;
+  background-color: white;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+  cursor: pointer;
   transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
-.form-button:hover {
+.hero-text-div button:active {
+  padding: 18px 42px;
   background-color: white;
   color: #1a2236;
-  border: 1px solid black;
+  border: 4px solid #1a2236;
+  cursor: pointer;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
-.form-button:active {
-  background-color: white;
-  color: #1a2236;
-  border: 2px solid black;
+.hero-img {
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.img2 {
+.hero-img img {
+  width: 100%;
+  resize: none;
+}
+
+.hero-mobile {
   display: none;
 }
 
-.footer-bg {
-  background-color: #1a2236;
+/* Hero Section Ends */
+
+/* Project Section Starts */
+
+.project {
+  margin-top: 100px;
+}
+
+.project-row-1 {
+  display: grid;
+  grid-template-columns: 40% auto;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.project-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  padding-right: 20%;
+  background-image: url('./assets/dots-img.svg');
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.project-heading h2 {
+  transform: rotate(-90deg);
+}
+
+.project-card-1 {
+  display: flex;
+  position: relative;
+}
+
+.project-card-1 img {
+  resize: both;
+  width: 100%;
+}
+
+.card-1-data {
+  opacity: 0;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(26, 34, 54, 1) 50%, rgba(26, 34, 54, 0) 100%);
   color: white;
-  padding-left: 16px;
-  padding-right: 16px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
-.cv-link {
-  padding-top: 32px;
-  padding-bottom: 24px;
+.card-1-data:hover {
+  opacity: 100;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
-.footer-link {
+.card-1-text h2 {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80%;
+  margin: 0;
+}
+
+.card-1-text ul {
+  padding: 20px;
+  display: flex;
+  gap: 24px;
+}
+
+.project-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.project-card-2 {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  position: relative;
+}
+
+.project-card-2 img {
+  resize: both;
+  width: 100%;
+}
+
+.project-row-2-geo {
+  display: flex;
+  object-fit: cover;
+  resize: both;
+  width: 100%;
+}
+
+.project-row-2-geo img {
+  width: 100%;
+}
+
+.project-card-3 {
+  grid-row: span 2;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.project-card-3 .card-1-data {
+  display: none;
+}
+
+.project-card-3 img {
+  resize: both;
+  width: 100%;
+}
+
+.project-card-4 {
+  grid-column: span 2;
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  background-image: url('./assets/folio4-geo.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+
+.project-card-4 img {
+  resize: both;
+  width: 83%;
+}
+
+.folio5-geo {
+  align-self: flex-end;
+  width: 50% !important;
+  right: 0;
+}
+
+.project-row-3 {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.project-row-3-geo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.project-card-5 {
+  position: relative;
+}
+
+.project-card-5 img {
+  width: 80%;
+}
+
+/* Project Section Ends */
+
+/* About Section Starts */
+
+.about {
+  margin-top: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 24px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-cards h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.about-card-1 {
+  background-color: #1c528a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  background-image: url('./assets/hash.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.about-card-2 {
+  background-color: #e2505c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  background-image: url('./assets/sqr.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.about-card-3 {
+  background-color: #febf52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  background-image: url('./assets/skill.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.about-card-4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.about-text h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 100%;
+  color: #1a2236;
+  margin: 0;
+}
+
+.about-text button:hover {
+  background-color: white;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+  padding: 16px 80px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
+}
+
+.about-text button:active {
+  background-color: white;
+  color: #1a2236;
+  border: 4px solid #1a2236;
+  padding: 16px 80px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
+}
+
+.about-text img {
+  height: 22px;
+}
+
+/* About Section Ends */
+
+/* Contact Section Starts */
+
+.contact {
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f9f9fa;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 100%;
+  text-align: center;
+  color: #1a2236;
+  margin: 0;
+  padding-bottom: 28px;
+}
+
+.contact p {
+  padding-bottom: 28px;
+}
+
+.contact-wrapper form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-wrapper textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 16px;
+  margin-right: 0;
+  border-radius: 8px;
+  background-color: white;
+  outline-color: black;
+}
+
+.contact-wrapper button:hover {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  background-color: white;
+  color: #1a2236;
+  border: 1px solid #1a2236;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #92dcdc;
+  padding: 12px 0;
+  width: 50%;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
+  cursor: pointer;
 }
 
-.footer-link-icon {
-  height: 16px;
-  width: 16px;
-  padding-left: 16px;
+.contact-wrapper button:active {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  background-color: white;
+  color: #1a2236;
+  border: 4px solid #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 0;
+  width: 50%;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
+  cursor: pointer;
 }
 
-.social-icons {
+.form-border {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 32px;
+  justify-content: start;
+  flex-direction: column;
+  border: 1px solid #dfdfe0;
+  border-radius: 8px;
+  margin-bottom: 28px;
+  background-color: white;
+  width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-  /* For Desktop */
+.contact-wrapper label {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  padding: 6px 16px;
+}
+
+.form-border input {
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.form-row-1 {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.contact-geo-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+}
+
+.contact-geo-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 200px;
+}
+
+/* Contact Section Ends */
+
+/* Footer Section Starts */
+
+.footer {
+  background-color: #1a2236;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  color: white;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 28px;
+}
+
+/* Footer Section Ends */
+
+/* PC VIEW PORTFOLIO ENDS */
+
+/* Mobile View Starts */
+
+@media only screen and (max-width: 768px) {
   body {
-    margin: 0;
-    padding: 0;
-    background-image: none;
+    background-image: url('./assets/geo.png');
+    background-repeat: no-repeat;
     overflow: hidden;
     overflow-y: scroll;
   }
 
-  .menu {
+  .header ul {
     display: none;
   }
 
-  .navbar {
+  .header nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
   }
 
-  .navbar ul {
-    padding-top: 24px;
+  .menu {
+    display: block;
+    margin-right: 16px;
+  }
+
+  .nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 40%;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #1a2236;
-  }
-
-  .navbar ul li a:hover {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-  }
-
-  .hello {
-    text-decoration: underline;
-    text-underline-offset: 8px;
+    justify-content: flex-end;
+    width: 100%;
   }
 
   .hero {
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 16px;
+    grid-template-columns: 1fr;
     justify-content: center;
   }
 
-  .hero-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 48px;
-    width: 100%;
-    text-align: center;
-    padding-left: 25%;
-    box-sizing: border-box;
-    position: relative;
+  .hero-text {
+    background-image: none;
   }
 
-  .heading {
-    font-family: 'Playfair Display', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 110px;
-    line-height: 100%;
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 0;
+  .hero-text-div h1 {
+    font-size: 48px;
   }
 
-  .para {
-    text-align: left;
-  }
-
-  .btn-a {
-    display: flex;
-    justify-content: start;
-  }
-
-  .btn {
-    width: 45%;
-  }
-
-  .img-dots {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-
-  .hero-2 {
-    display: flex;
-    width: 100%;
-  }
-
-  .geo2-img {
+  .hero-img {
     display: none;
   }
 
-  .geo3-img {
-    display: block;
+  .hero-mobile {
+    display: flex;
+    padding: 20px 0;
     width: 100%;
   }
 
-  .pc1 {
-    margin-top: 200px;
-    display: grid;
+  .hero-text-div {
+    width: 90%;
+  }
+
+  .hero-text-div p {
+    font-size: 14px;
+  }
+
+  .hero-text-div a {
+    width: 100%;
+  }
+
+  .hero-text-div button {
+    width: 100%;
+  }
+
+  .project {
+    margin-top: 0;
+  }
+
+  .project-heading {
+    font-size: 28px;
+    background-image: none;
+  }
+
+  .project-heading h2 {
+    transform: rotate(0deg);
+  }
+
+  .card-1-data {
     position: relative;
-    grid-template-columns: 40% auto;
-  }
-
-  .project-h1 {
-    position: absolute;
-    font-size: 110px;
-    line-height: 100%;
-    transform: rotate(-90deg);
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-top: 138px;
-  }
-
-  .h1-dots {
-    background-image: url(./assets/image_dots.svg);
-    background-repeat: no-repeat;
-    background-position: top right;
-  }
-
-  .folio-hovers {
-    position: absolute;
-    margin-top: -190px;
-    width: 100%;
-    opacity: 0;
-    background-color: #1a2236;
-    color: white;
-    padding: 8px 0;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .folio-hovers:hover {
     opacity: 100;
+    background-color: #1a2236;
+    width: 100%;
   }
 
-  .pc-geo-1 {
+  .card-1-text h2 {
+    font-size: 20px;
+  }
+
+  .card-1-text ul {
+    font-size: 10px;
+    padding: 0 20px;
+  }
+
+  .card-1-text button {
+    padding: 4px 8px;
+  }
+
+  .project-row-1 {
     display: block;
-    position: relative;
-    resize: both;
   }
 
-  .pc-geo-1 img {
-    width: 100%;
-  }
-
-  .pc2 {
-    margin-top: 76px;
-    display: grid;
-    position: relative;
-    grid-template-columns: 40% auto auto;
-  }
-
-  .pc3 {
-    display: grid;
-    position: relative;
-    grid-template-columns: 50% auto;
-  }
-
-  .pc4 {
-    display: grid;
-    position: relative;
-    grid-template-columns: 50% auto;
-  }
-
-  .folio-txt {
-    position: relative;
-    background-color: white;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 0;
-  }
-
-  .img-folio4 {
-    height: 220px;
-    resize: both;
-  }
-
-  .img-folio5 {
-    width: 100%;
-    resize: both;
-  }
-
-  .folio-img-last {
-    height: 125px;
-  }
-
-  .folio-geo-last {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .about {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .abpc-1 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
-  .abpc-2 {
-    width: 100%;
+  .project-card-1 {
     display: block;
-    justify-content: center;
   }
 
-  .abpc2-in {
-    width: 70%;
-    padding-left: 20%;
-  }
-
-  .abpc-2 h1 {
-    font-size: 110px;
-  }
-
-  .about-btn {
-    width: 50%;
-  }
-
-  .box4 {
-    background-image: url(./assets/image_dots_with_teal.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    margin-bottom: 16px;
-  }
-
-  .img1 {
-    background-image: url(./assets/image-geometry_6.svg);
-    background-size: 10%;
-  }
-
-  .img2 {
+  .project-row-2 {
     display: block;
-    position: absolute;
-    height: 150px;
-    bottom: 0;
-    right: 0;
   }
 
-  .section-bg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  .project-card-2 {
+    display: block;
   }
 
-  .sec-in {
-    width: 40%;
+  .project-row-2-geo {
+    display: none;
   }
 
-  .sec-in h1 {
+  .project-row-3 {
+    display: block;
+  }
+
+  .project-card-3 .card-1-data {
+    display: block;
+  }
+
+  .project-card-3-wrap {
+    width: 100%;
+  }
+
+  .project-row-3-geo {
+    display: none;
+  }
+
+  .project-card-4 {
+    background-image: none;
+    display: block;
+  }
+
+  .project-card-4 img {
+    width: 100%;
+  }
+
+  .project-card-5 {
+    display: none;
+  }
+
+  .project-card-5 img {
+    width: 100%;
+  }
+
+  .folio5-geo {
+    display: none;
+  }
+
+  .about-wrapper {
+    display: block;
+    width: 90%;
+  }
+
+  .about-cards {
+    display: block;
+  }
+
+  .about-card-4 {
+    display: none;
+  }
+
+  .about-text h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
     font-weight: 400;
-    font-size: 110px;
+    font-size: 50px;
     line-height: 100%;
-    text-align: center;
+    color: #1a2236;
+    margin: 0;
+    padding-top: 28px;
   }
 
-  .form-border {
-    width: 50%;
+  .about-text button {
+    padding: 8px 0;
   }
 
-  .sec-in-flex {
-    display: flex;
-    gap: 5%;
-    padding: 24px 0;
+  .about-text a {
+    width: 100%;
   }
 
-  .footer-bg {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  .contact-wrapper {
+    width: 90%;
   }
 
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    padding-bottom: 0;
+  .contact-wrapper button {
+    width: 100%;
+  }
+
+  .contact-geo-1 {
+    height: 70px;
+  }
+
+  .contact-geo-2 {
+    display: none;
+  }
+
+  .contact h2 {
+    font-size: 50px;
+  }
+
+  .form-row-1 {
+    display: block;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .footer-social-icons {
+    padding-top: 20px;
   }
 }
+
+/* Mobile View Ends */
