@@ -37,7 +37,7 @@ a {
   gap: 48px;
 }
 
-.mob-abs-2{
+.mob-abs-2 {
   display: none;
 }
 
@@ -717,7 +717,7 @@ a {
     background-repeat: no-repeat;
   }
 
-  .mob-abs-2{
+  .mob-abs-2 {
     display: block;
     background-image: url('./assets/mob-abs-2.svg');
     position: absolute;
