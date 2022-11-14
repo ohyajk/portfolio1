@@ -37,6 +37,10 @@ a {
   gap: 48px;
 }
 
+#ul {
+  display: none;
+}
+
 .menu-cross {
   display: none;
 }
