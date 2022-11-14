@@ -717,6 +717,22 @@ a {
     z-index: 1;
   }
 
+  .mob-abs-dot {
+    display: block;
+    background-image: url('./assets/mob-abs-dot.svg');
+    position: absolute;
+    height: 100vh;
+    width: 100% !important;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100px 50px;
+    top: 10%;
+    right: 10%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  }
+
   .mob-abs-2 {
     display: block;
     background-image: url('./assets/mob-abs-2.svg');
