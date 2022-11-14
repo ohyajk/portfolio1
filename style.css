@@ -37,6 +37,10 @@ a {
   gap: 48px;
 }
 
+.menu-cross {
+  display: none;
+} 
+
 .mob-abs-2 {
   display: none;
 }
@@ -764,6 +768,7 @@ a {
   }
 
   .menu-cross {
+    display: block;
     position: absolute;
     top: 38px;
     right: 16px;
