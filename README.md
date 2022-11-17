@@ -39,6 +39,8 @@ Contributions and feature requests are welcome!
 
 - **GitHub**: [@ilyassatlassi](https://github.com/ilyassatlassi)
 
+- **GitHub**: [@Dmambo](https://github.com/Dmambo)
+
 ## 💌 Acknowledgements
 
 - StackOverflow
