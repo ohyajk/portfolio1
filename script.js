@@ -126,7 +126,20 @@ buttons.forEach((button) => {
     btnClose.addEventListener('click', closePopup);
   });
 });
+
 //  form validation
+
 const form = document.getElementById('form');
 const input = document.getElementById('mail');
 const errorPop = document.getElementById('error');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const mail = input.value.trim();
+  const regex = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+  if (!regex.test(mail)) {
+    errorPop.innerHTML = '<div id="error-in">Email should be in lower case only !</div>';
+  } else {
+    form.submit();
+  }
+});
