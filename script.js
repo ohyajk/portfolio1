@@ -126,3 +126,7 @@ buttons.forEach((button) => {
     btnClose.addEventListener('click', closePopup);
   });
 });
+//  form validation
+const form = document.getElementById('form');
+const input = document.getElementById('mail');
+const errorPop = document.getElementById('error');
