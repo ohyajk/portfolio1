@@ -39,6 +39,8 @@ Contributions and feature requests are welcome!
 
 - **GitHub**: [@ilyassatlassi](https://github.com/ilyassatlassi)
 
+👤 Dmambo (Ibrahim)
+
 - **GitHub**: [@Dmambo](https://github.com/Dmambo)
 
 ## 💌 Acknowledgements
