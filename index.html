@@ -219,7 +219,7 @@
         <div class="contact-wrapper">
             <h2>Get Started</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>
-            <form action="https://formspree.io/f/xoqbpaza" method="POST">
+            <form id="form" action="https://formspree.io/f/xoqbpaza" method="POST">
                 <div class="form-row-1">
                     <div class="form-border">
                         <label for="name">Your Name</label>
@@ -227,11 +227,12 @@
                     </div>
                     <div class="form-border">
                         <label for="email">Your Email</label>
-                        <input class="input" type="email" name="email" id="email" placeholder="Enter Your Email Here..." required>
+                        <input class="input" type="email" name="email" id="mail" placeholder="Enter Your Email Here..." required>
                     </div>
                 </div>
                 <textarea class="textarea" name="textarea" id="text-area" maxlength="500" placeholder="Write Your Message Here..." cols="30" rows="6" required></textarea>
                 <br/>
+                <div id="error"></div>
                 <button class="form-button" type="submit">Start Collaboration</button>
             </form>
         </div>
