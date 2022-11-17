@@ -1001,6 +1001,22 @@ a {
   width: 100%;
 }
 
+#error {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+#error-in {
+  background-color: rgba(255, 127, 127, 0.311);
+  border: 2px solid rgb(254, 0, 0);
+  padding: 10px 25px;
+  width: 100%;
+  box-shadow: 0 0 8px rgba(254, 0, 0, 0.5);
+  margin: 10px 0;
+}
+
 .contact-geo-1 {
   position: absolute;
   top: 0;
