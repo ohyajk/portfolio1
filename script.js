@@ -21,7 +21,7 @@ const projectList = [
   },
   {
     title: 'My Second Project',
-    img: '#',
+    img: './assets/folio2.svg',
     tech: ['HTML/CSS', 'Ruby on Rails', 'Java'],
     des: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.', ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     git: ['#', 'See Github'],
@@ -29,7 +29,7 @@ const projectList = [
   },
   {
     title: 'My Third Project',
-    img: '#',
+    img: './assets/folio3.svg',
     tech: ['HTML/CSS', 'Ruby on Rails', 'Java'],
     des: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.', ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     git: ['#', 'See Github'],
@@ -37,7 +37,7 @@ const projectList = [
   },
   {
     title: 'My Fourth Project',
-    img: '#',
+    img: './assets/folio4.svg',
     tech: ['HTML/CSS', 'Ruby on Rails', 'Java'],
     des: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.', ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     git: ['#', 'See Github'],
@@ -45,7 +45,7 @@ const projectList = [
   },
   {
     title: 'My Fifth Project',
-    img: '#',
+    img: './assets/folio5.svg',
     tech: ['HTML/CSS', 'Ruby on Rails', 'Java'],
     des: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.', ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     git: ['#', 'See Github'],
@@ -53,7 +53,7 @@ const projectList = [
   },
   {
     title: 'My Sixth Project',
-    img: '#',
+    img: './assets/folio6.svg',
     imgAlt: '#',
     tech: ['HTML/CSS', 'Ruby on Rails', 'Java'],
     des: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.', ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod holderor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
