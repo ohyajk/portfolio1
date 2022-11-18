@@ -143,3 +143,25 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+// local storage
+
+const NameData = document.querySelector('#name');
+const MailData = document.querySelector('#mail');
+const TextData = document.querySelector('#text-area');
+form.addEventListener('submit', () => {
+  const Data = {
+    Name: NameData.value,
+    Email: MailData.value,
+    Text: TextData.value,
+  };
+  localStorage.setItem('data', JSON.stringify(Data));
+});
+
+const AutoFiller = localStorage.getItem('data');
+if (AutoFiller) {
+  const DataStored = JSON.parse(localStorage.getItem('data'));
+  NameData.value = DataStored.Name;
+  MailData.value = DataStored.Email;
+  TextData.value = DataStored.Text;
+}
