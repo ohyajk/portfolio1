@@ -147,16 +147,15 @@ form.addEventListener('submit', (e) => {
 // local storage
 
 const save = document.querySelector('#contact');
-save.addEventListener('click', ()=> {
-   n1= document.getElementById('name').value;
-   e1= document.getElementById('mail').value;
-   txt= document.getElementById('text-area').value;
-  window.localStorage.setItem("name", n1);
-  window.localStorage.setItem("mail", e1);
-  window.localStorage.setItem("text-area", txt);
- 
+save.addEventListener('click', () => {
+  const n1 = document.getElementById('name').value;
+  const e1 = document.getElementById('mail').value;
+  const txt = document.getElementById('text-area').value;
+  window.localStorage.setItem('name', n1);
+  window.localStorage.setItem('mail', e1);
+  window.localStorage.setItem('text-area', txt);
 });
 
-document.getElementById('name').value = localStorage.getItem("name");
-document.getElementById('mail').value = localStorage.getItem("mail");
-document.getElementById('text-area').value = localStorage.getItem("text-area");
+document.getElementById('name').value = localStorage.getItem('name');
+document.getElementById('mail').value = localStorage.getItem('mail');
+document.getElementById('text-area').value = localStorage.getItem('text-area');
