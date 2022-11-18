@@ -146,16 +146,22 @@ form.addEventListener('submit', (e) => {
 
 // local storage
 
-const save = document.querySelector('#contact');
-save.addEventListener('click', () => {
-  const n1 = document.getElementById('name').value;
-  const e1 = document.getElementById('mail').value;
-  const txt = document.getElementById('text-area').value;
-  window.localStorage.setItem('name', n1);
-  window.localStorage.setItem('mail', e1);
-  window.localStorage.setItem('text-area', txt);
+const NameData = document.querySelector('#name');
+const MailData = document.querySelector('#mail');
+const TextData = document.querySelector('#text-area');
+form.addEventListener('submit', () => {
+  const Data = {
+    Name: NameData.value,
+    Email: MailData.value,
+    Text: TextData.value,
+  };
+  localStorage.setItem('data', JSON.stringify(Data));
 });
 
-document.getElementById('name').value = localStorage.getItem('name');
-document.getElementById('mail').value = localStorage.getItem('mail');
-document.getElementById('text-area').value = localStorage.getItem('text-area');
+const AutoFiller = localStorage.getItem('data');
+if (AutoFiller) {
+  const DataStored = JSON.parse(localStorage.getItem('data'));
+  NameData.value = DataStored.Name;
+  MailData.value = DataStored.Email;
+  TextData.value = DataStored.Text;
+}
